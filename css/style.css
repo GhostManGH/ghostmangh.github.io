@@ -1,5 +1,7 @@
 @import url('animate.min.css');
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+<link href='http://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 
 @font-face {
     font-family: 'GeoSansLight';
@@ -25,11 +27,12 @@ body{
   width:100%;
   height:100%;
   z-index:-1;
-  background-color:#000000;
+  background-color:#000111;
   position:absolute;
   top:0;
   left:0;
   overflow:hidden;
+  text-align:center;
 }
 .background p{
   padding:15px;
@@ -56,6 +59,7 @@ h1{
   line-height:0;
   font-size:50px;
   margin-bottom:50px;
+  font-family: 'Lato', sans-serif;
 }
 
 h2{
@@ -63,6 +67,7 @@ h2{
   line-height:0;
   font-size:32px;
   margin-bottom:50px;
+  font-family: 'Lato', sans-serif;
 }
 
 p{
