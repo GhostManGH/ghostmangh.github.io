@@ -33,6 +33,7 @@ body{
   left:0;
   overflow:hidden;
   text-align:center;
+  -webkit-filter: blur(3px);
 }
 .background p{
   padding:15px;
@@ -48,6 +49,7 @@ body{
   margin-top:-55px;
   position:absolute;
   background-color:#000000;
+  border-radius:5px;
 }
 
 hr{
